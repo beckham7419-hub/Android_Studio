@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/etnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"/>
+
+
+    <TextView
+        android:id="@+id/tvape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/etape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu apellido"/>
+
+    <TextView
+        android:id="@+id/tved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/eted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu edad"/>
+
+    <TextView
+        android:id="@+id/tvvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vivo"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/etvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Esta vivo o muerto?"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#FF0000</color>
+    <color name="azul">#0000FF</color>
+    <color name="amarillo">#FFFF00</color>
+    <color name="verde">#008000</color>
+    <color name="rosa">#FFC0CB</color>
+    <color name="verde_mexico">#006847</color>
+    <color name="blanco_mexico">#FFFFFF</color>
+    <color name="rojo_mexico">#CE1126</color>
+</resources>
